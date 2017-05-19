@@ -1,0 +1,5 @@
+{
+	"libs": { 
+		"HBClementine" : ["libs", "templates/default/libs"]
+	}
+}

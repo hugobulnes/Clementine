@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Neou-Bold;
+    src: url(../fonts/Neou-Bold.ttf);
+}
+
+html, body{height:100%;}
+
+/***
+ * Type: Attribute
+ * Des: Adds button cursor to element
+ * */
+.button{
+	cursor: pointer;
+}
+
+/***
+ * Type: Element
+ * id: nav000001
+ * Des: Header Navigation for Panel
+ * ***/
+#nav000001{
+	width:100%;
+	height:70px;
+	background-color:white;
+	position:absolute;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/***
+ * Type: Element
+ * id: search000001
+ * Title: Search Spacer
+ * Des: Search Space 
+ * */
+#search000001{
+	min-width:400px;
+	height:100%;
+	top:0%;
+	position:absolute;
+	left:80px;
+	right:150px;
+	padding-left:80px;
+}
+
+/***
+ * Type: Element
+ * id: searchbtn
+ * Title: Search Button
+ * Des: Button to show search input text
+ * */
+#searchbtn{
+	width:38px;
+	height:38px;	
+	box-sizing: border-box;
+	/*border: none;*/
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow:hidden;
+    position:absolute;
+    left:0px;
+    top:50%;
+	margin-top:-19px;
+    background-color:white;
+}
+
+#searchbtn img{
+	width:100%;
+	height:100%;
+}
+
+#searchbtn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
+#searchbtn img:hover{
+	width:110%;
+	height:110%;
+	position:relative;
+	left:-5%;
+	top:-5%;
+}
+
+/***
+ * Type: Element
+ * id: search
+ * Title: Search Bar
+ * Des: Search inside the entire website
+ * */
+ #search{
+	width:100%;	
+	padding: 12px 20px;	
+	box-sizing: border-box;
+	border: none;
+    border-radius: 0px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    position:relative;
+    top:50%;
+    display: none;
+    margin-top: -.5em;
+    
+ }
+
+/***
+ * Type: Element
+ * id: profile000001
+ * Title: Profile Picture
+ * Des: Header Navigation for Panel
+ * ***/
+#profile000001 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:50%;
+	margin-top:-25px;
+	right:15px;
+}
+
+/***
+ * Type: Attribute
+ * Des: Format Profile Picture
+ */
+#profile000001 img{
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+} 
+
+#profile000001 img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
+/***
+ * Type: Element
+ * id: menubtn
+ * Title: Menu Button
+ * Des: Display options
+ * */
+#menubtn000001{
+	width:38px;
+	height:38px;
+	border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:relative;
+    top:50%;
+    margin-top:-19px;
+    left:15px;
+    background-color:white;
+    /*overflow:hidden;*/
+}
+
+#menubtn000001:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
+#menubtn000001 img{
+	width:100%;
+	height:100%;
+} 
+
+#menubtn000001 img:hover{
+    width:110%;
+	height:110%;
+	position:relative;
+	left:-5%;
+	top:-5%;
+}
+
+/**
+@media only screen and (min-width: 769px) {
+	nav.nabvar-default { background-color: rgba(255,255,255, 1); }
+}**/

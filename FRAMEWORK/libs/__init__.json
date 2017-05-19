@@ -1,0 +1,6 @@
+{
+"namespace" : "HB\\Clementine",
+"__all__" : [ 
+				"autoload", "Color", "Behavior", "ErrorHandler"
+			] 
+}

@@ -1,0 +1,14 @@
+{
+    "libs": {
+        "HB\\Clementine": [
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/autoload",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Color",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Behavior",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/ErrorHandler",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/templates\/default\/libs\/Shadow"
+        ]
+    },
+    "templates": [
+        "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/templates\/default"
+    ]
+}
