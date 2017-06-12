@@ -1,0 +1,20 @@
+{
+    "libs": {
+        "HB\\Clementine": [
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/autoload",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Color",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Behavior",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/ErrorHandler",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/iProperty",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Property",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Background",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Border",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/Borders",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/libs\/ImageResource",
+            "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/templates\/default\/libs\/Shadow"
+        ]
+    },
+    "templates": [
+        "\/home\/sushi\/workspace\/panel\/FRAMEWORK\/templates\/default"
+    ]
+}

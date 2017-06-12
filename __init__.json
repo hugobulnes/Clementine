@@ -1,0 +1,8 @@
+{
+"namespace" : "HB\\Clementine",
+"__all__" : [ 
+				"autoload", "Color", "Behavior", "ErrorHelper", "Background", "Border", "Shape", "Image",
+				"ImageResource","iProperty", "Property", "Borders", "LeftBorder", "RightBorder", "TopBorder",
+				"BottomBorder", "Button", "iElement", "Element"
+			] 
+}
